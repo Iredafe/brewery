@@ -18,7 +18,12 @@ public class BeerServiceImpl implements BeerService {
     }
 
     @Override
-    public Object updateBeer(UUID beerId, BeerDto beerDto) {
+    public void updateBeer(UUID beerId, BeerDto beerDto) {
         //todo add impl
+    }
+
+    @Override
+    public void deleteBeerById(UUID beerId) {
+
     }
 }
