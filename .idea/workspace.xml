@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c36211a0-ff32-4ee0-b589-f663c2b3e8bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dafe/brewery/web/controller/BeerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brewery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/brewery.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/controller/BeerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/controller/BeerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/service/BeerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/service/BeerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/service/BeerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/service/BeerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dafe/brewery/web/controller/BeerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dafe/brewery/web/controller/BeerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dafe/brewery/web/service/BeerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dafe/brewery/web/service/BeerService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +164,7 @@
       <workItem from="1617200931607" duration="2077000" />
       <workItem from="1617219385841" duration="2855000" />
       <workItem from="1617295866528" duration="7939000" />
-      <workItem from="1617501576131" duration="1824000" />
+      <workItem from="1617501576131" duration="2351000" />
     </task>
     <servers />
   </component>
