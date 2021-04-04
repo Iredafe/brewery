@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c36211a0-ff32-4ee0-b589-f663c2b3e8bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dafe/brewery/web/controller/CustomerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/service/BeerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/service/BeerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/controller/BeerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/controller/BeerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dafe/brewery/web/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dafe/brewery/web/controller/BeerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dafe/brewery/web/controller/BeerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dafe/brewery/web/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dafe/brewery/web/controller/CustomerController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +63,7 @@
       <recent name="com.dafe.brewery.web.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeerControllerTest">
+  <component name="RunManager" selected="JUnit.CustomerControllerTest.updateCustomer">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -69,21 +73,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeerControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="brewery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dafe.brewery.web.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dafe.brewery.web.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.dafe.brewery.web.controller.BeerControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,22 +88,6 @@
       <option name="PACKAGE_NAME" value="com.dafe.brewery.web.controller" />
       <option name="MAIN_CLASS_NAME" value="com.dafe.brewery.web.controller.BeerControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeerControllerTest.getBeer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="brewery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dafe.brewery.web.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dafe.brewery.web.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.dafe.brewery.web.controller.BeerControllerTest" />
-      <option name="METHOD_NAME" value="getBeer" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,6 +108,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="brewery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dafe.brewery.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dafe.brewery.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.dafe.brewery.web.controller.CustomerControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerControllerTest.getCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="brewery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dafe.brewery.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dafe.brewery.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.dafe.brewery.web.controller.CustomerControllerTest" />
+      <option name="METHOD_NAME" value="getCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerControllerTest.updateCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="brewery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dafe.brewery.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dafe.brewery.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.dafe.brewery.web.controller.CustomerControllerTest" />
+      <option name="METHOD_NAME" value="updateCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BreweryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="brewery" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dafe.brewery.BreweryApplication" />
@@ -144,10 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerControllerTest.updateCustomer" />
+        <item itemvalue="JUnit.CustomerControllerTest" />
+        <item itemvalue="JUnit.CustomerControllerTest.getCustomer" />
         <item itemvalue="JUnit.BeerControllerTest" />
         <item itemvalue="JUnit.BeerControllerTest.handlePost" />
-        <item itemvalue="JUnit.BeerControllerTest.getBeer" />
-        <item itemvalue="JUnit.BeerControllerTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -164,11 +185,22 @@
       <workItem from="1617200931607" duration="2077000" />
       <workItem from="1617219385841" duration="2855000" />
       <workItem from="1617295866528" duration="7939000" />
-      <workItem from="1617501576131" duration="2351000" />
+      <workItem from="1617501576131" duration="4379000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/dafe/brewery/web/controller/BeerControllerTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
