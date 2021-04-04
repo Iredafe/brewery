@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.UUID;
 
 public interface BeerService {
-     BeerDto getbeerById(UUID beerId);
+     BeerDto getBeerById(UUID beerId);
 
      BeerDto saveNewBeer(BeerDto beerDto);
 
